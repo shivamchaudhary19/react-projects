@@ -14,8 +14,6 @@ function App() {
   const options = Object.keys(currencyInfo);
 
   const swap = () => {
-    console.log("SWAP CLICKED");
-
     const prevFrom = from;
     const prevTo = to;
     const prevAmount = amount;
@@ -31,8 +29,6 @@ function App() {
     setConvertedAmount(amount * currencyInfo[to]);
   };
 
-console.log("FROM:", from);
-console.log("TO:", to);
 
   return (
     <div
