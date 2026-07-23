@@ -96,7 +96,6 @@ export default function Home () {
           </div>
 
         </div>
-        <hr className="border-[#d95300]" />
       </>
     )
   }

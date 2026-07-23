@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 export default function Footer () {
     return (
-      <div className='pt-3 bg-[rgb(0,9,34)] grid grid-cols-3'>
+      <div className='pt-3 bg-[rgba(65,65,65,0.97)] grid grid-cols-3'>
         <Link to="/">
           <img
             src={Icon}
@@ -111,7 +111,6 @@ export default function Footer () {
         </div>
             {/* Policies */}
       <div className="col-span-3 mt-6">
-          <hr className="border-[#d95300]" />
 
           <div className="grid grid-cols-1 md:grid-cols-2 items-center py-2 gap-2 px-4">
 
