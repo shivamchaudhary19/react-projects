@@ -38,7 +38,7 @@ export default function Header () {
                                 <NavLink
                                     to="/"
                                     className={({isActive}) =>
-                                        `block py-2 pr-4 pl-3 duration-200 ${isActive ? "text-[#d95300]" : "text-white"} border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-[#a7ebf2] lg:p-0`
+                                        `block py-2 pr-4 pl-3 duration-200 ${isActive ? "text-[#d95300]" : "text-white"} border-b border-gray-100 lg:hover:bg-transparent lg:border-0 hover:text-[#d95300] lg:p-0`
                                     }
                                 >
                                     Home
@@ -48,7 +48,7 @@ export default function Header () {
                                 <NavLink
                                     to="/product"
                                     className={({isActive}) =>
-                                        `block py-2 pr-4 pl-3 duration-200 ${isActive ? "text-[#54acbf]" : "text-white"} border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-[#a7ebf2] lg:p-0`
+                                        `block py-2 pr-4 pl-3 duration-200 ${isActive ? "text-[#d95300]" : "text-white"} border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-[#d95300] lg:p-0`
                                     }
                                 >
                                     Product
@@ -58,7 +58,7 @@ export default function Header () {
                                 <NavLink
                                     to="/about"
                                     className={({isActive}) =>
-                                        `block py-2 pr-4 pl-3 duration-200 ${isActive ? "text-[#54acbf]" : "text-white"} border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-[#a7ebf2] lg:p-0`
+                                        `block py-2 pr-4 pl-3 duration-200 ${isActive ? "text-[#d95300]" : "text-white"} border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-[#d95300] lg:p-0`
                                     }
                                 >
                                     About
@@ -68,7 +68,7 @@ export default function Header () {
                                 <NavLink
                                     to="/contact"
                                     className={({isActive}) =>
-                                        `block py-2 pr-4 pl-3 duration-200 ${isActive ? "text-[#54acbf]" : "text-white"} border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-[#a7ebf2] lg:p-0`
+                                        `block py-2 pr-4 pl-3 duration-200 ${isActive ? "text-[#d95300]" : "text-white"} border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-[#d95300] lg:p-0`
                                     }
                                 >
                                     Contact
